@@ -23,7 +23,7 @@ main {
     height: 100vh;
 }
 
-section#screen {
+section#cell {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,4 +34,12 @@ section#screen {
     background-color: blue;
     background: url(../assets/templates/frame-iphone.png) no-repeat;
 
+}
+
+iframe#screen {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 265px;
+    height: 470px;
 }
