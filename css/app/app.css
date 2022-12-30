@@ -3,9 +3,42 @@
     margin: 0px;
 }
 
-body {
-    margin: 0px;
-    height: 100vh;
-    width: 100vw;
+main#screen {
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background-color: black;
 }
 
+div#intro {
+
+}
+
+section#library {
+
+}
+
+nav#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: purple;
+    size: 50px;
+    padding: 8px;
+}
+
+input.button {
+    size: 30px;
+    background-color: #202125;
+    color: white;
+    padding: 10px;
+    
+    border: none;
+}
