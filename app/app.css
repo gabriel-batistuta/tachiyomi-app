@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-meter-bar {
+    width: 0px;
+    height: 0px;
+}
+
+main#screen {
+    
+}
+
+div#intro {
+
+}
+
+section#library {
+
+}
+
+nav#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: gray;
+    size: 50px;
+    padding: 8px;
+    
+}
+
+input.button {
+    width: 40px;
+    height: 40px;
+    background-color: #2021256e;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    color: white;
+    padding: 6px;
+    border-radius: 10%;
+    border: none;
+}
+
+/* library , updates , history , browse , more */
+
+input.library {
+    background-image: url(../../assets/buttons/library.png);
+}
+
+input.updates {
+    background-image: url(../../assets/buttons/warning.png);
+}
+
+input.history {
+    background-image: url(../../assets/buttons/history.png);
+}
+
+input.browse {
+    background-image: url(../../assets/buttons/browse.png);
+}
+
+input.more {
+    background-image: url(../../assets/buttons/more.png);
+}
+
+input.button:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: black;
+}
+
+input.button:focus {
+    background-color: lightseagreen;
+    color: black;
+}
