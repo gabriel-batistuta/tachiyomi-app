@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url(https://gifs.eco.br/wp-content/uploads/2022/09/gifs-de-fundo-preto-46.gif) no-repeat center;
+    background: url(assets/templates/quadro-negro.webp) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
