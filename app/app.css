@@ -24,23 +24,104 @@ main#screen {
     
 }
 
-div#intro {
+header#header {
+    position: static;
+    display: grid;
+    grid-template-rows: repeat(4, 20%);
+    grid-template-columns: 60% 35px 35px 35px;
+    background-color: gray;
+    size: 25px;
+    padding: 8px;
+    padding-top: 7px;
+}
 
+header#header > h1.title {
+    align-self: flex-start;
+    font-size: 22px;
+    color: black;
+    padding-top: 2px;
+}
+
+header#header > input {
+    height: 28px;
+    width: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px;
+    justify-content: end;
+    grid-template-rows: repeat(3, 15%);
+    background-color: gray;
+}
+
+header#header > input:hover {
+    cursor: pointer;
+    border-radius: 13px;
+    background-color: lightseagreen;
+}
+
+header#header > input.search {
+    background-image: url(../assets/buttons/search.png);
+}
+
+header#header > input.filter {
+    background-image: url(../assets/buttons/filter.png);
+}
+
+header#header > input.options {
+    background-image: url(../assets/buttons/options.png);
 }
 
 section#library {
+    /* position pra deixar dar o scroll nos mangás*/
+    padding-top: 2px;
+    padding-bottom: 6px;
+    background-color: black;
+    height: 363px;
+    width: 265px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-gap: 1px;
+    grid-auto-columns: 165px;
+    grid-auto-rows: 75px;
+}
 
+section#library > div.manga {
+    height: 200px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section#library > div.manga:hover {
+    cursor: pointer;
+    border: 3px solid lightseagreen;
+}
+
+section#library > div.kingdom {
+    background-image: url(../assets/covers/kingdom/kingdom.jpeg);
+}
+
+section#library > div.dragon-ball {
+    background-image: url(../assets/covers/dragon-ball/dragon-ball.jpeg);
+}
+
+section#library > div.gto {
+    background-image: url(../assets/covers/gto/gto.jpeg);
+}
+
+section#library > div.jujutsu-kaisen {
+    background-image: url(../assets/covers/jujutsu-kaisen/jujutsu-kaisen.jpeg);
 }
 
 nav#menu {
+    position: static;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-attachment: fixed;
     background-color: gray;
-    size: 50px;
     padding: 8px;
-    
 }
 
 input.button {
